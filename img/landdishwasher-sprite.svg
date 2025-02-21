@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <symbol viewBox="0 0 30 30" id="slider-prev">
+        <path d="M17.5008 22.067L10.4336 14.9998L17.5008 7.93262L18.818 9.24981L13.068 14.9998L18.818 20.7498L17.5008 22.067Z" />
+    </symbol>
+
+    <symbol viewBox="0 0 30 30" id="slider-next">
+        <path d="M12.4992 7.93276L19.5664 14.9999L12.4992 22.0671L11.182 20.7499L16.932 14.9999L11.182 9.24995L12.4992 7.93276Z" />
+    </symbol>
+
+</svg>

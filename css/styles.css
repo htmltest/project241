@@ -1,0 +1,180 @@
+.landdishwasher-wrapper,
+.landdishwasher-wrapper *,
+.landdishwasher-wrapper *::before,
+.landdishwasher-wrapper *::after {outline:none; box-sizing:border-box; font-family:Roboto, sans-serif; letter-spacing:0; color:#000000}
+
+.landdishwasher-wrapper {background:#FFFFFF; position:relative; overflow:hidden; width:100%; padding:0 0 275px 0}
+
+@media (max-width:1167px) {
+    .landdishwasher-wrapper {padding:0 0 145px 0}
+}
+
+.landdishwasher-container {margin:0 auto; max-width:1168px; width:100%}
+
+@media (max-width:1167px) {
+    .landdishwasher-container {padding:0 10px}
+}
+
+.landdishwasher-welcome {height:514px; background:url(../img/landdishwasher-welcome.png) no-repeat center; background-size:cover}
+.landdishwasher-welcome .landdishwasher-container {display:flex; justify-content:space-between}
+.landdishwasher-welcome-content {min-width:687px; max-width:687px; padding:100px 0 0 0}
+.landdishwasher-welcome-title {font-size:48px; line-height:1.2em; font-weight:normal}
+.landdishwasher-welcome-text {margin:24px 0 0 0; max-width:470px; font-weight:normal; font-size:18px; line-height:1.4em}
+.landdishwasher-welcome-notice {margin:10px 0 0 0; font-weight:normal; font-size:18px; line-height:1.4em; color:rgba(0, 0, 0, 0.5)}
+.landdishwasher-welcome-icon {margin:87px 160px 0 0; min-width:134px; max-width:134px}
+.landdishwasher-welcome-icon img {display:block; width:100%; border-radius:50%; box-shadow:0px 0px 30px rgba(10, 145, 209, 0.3)}
+
+@media (max-width:1167px) {
+    .landdishwasher-welcome {height:539px; text-align:center; background:url(../img/landdishwasher-welcome-mobile.jpg) no-repeat center bottom; background-size:cover}
+    .landdishwasher-welcome .landdishwasher-container {display:block}
+    .landdishwasher-welcome-content {min-width:0; max-width:none; padding:40px 0 0 0}
+    .landdishwasher-welcome-title {font-size:24px}
+    .landdishwasher-welcome-text {margin:12px 0 0 0; max-width:none; font-size:12px}
+    .landdishwasher-welcome-notice {margin:10px 0 0 0; max-width:none; font-size:12px}
+    .landdishwasher-welcome-icon {margin:60px 0 0 25px; min-width:88px; max-width:88px}
+}
+
+.landdishwasher-page {background:url(../img/landdishwasher-bg.svg) no-repeat center top; padding:100px 0 0 0}
+
+@media (max-width:1167px) {
+    .landdishwasher-page {background:url(../img/landdishwasher-bg-mobile.svg) no-repeat center top; padding:80px 0 0 0}
+}
+
+.landdishwasher-section {margin:140px 0 0 0}
+.landdishwasher-section:first-child {margin:0}
+.landdishwasher-section-title {text-align:center; font-weight:normal; font-size:48px; line-height:1.2em}
+
+@media (max-width:1167px) {
+    .landdishwasher-section {margin:80px 0 0 0}
+    .landdishwasher-section-title {font-size:24px}
+}
+
+.landdishwasher-functions {max-width:966px; margin:20px auto 0 auto; display:flex; flex-wrap:wrap}
+.landdishwasher-function {min-width:50%; max-width:50%; padding:40px 40px 0 40px}
+.landdishwasher-function-img img {display:block; width:100%; border-radius:4px}
+.landdishwasher-function-title {margin:20px 0 0 0; font-weight:normal; font-size:24px; line-height:1.3em}
+.landdishwasher-function-text {margin:10px 0 0 0; font-weight:normal; font-size:18px; line-height:1.5em; color:rgba(66, 81, 90, 0.8)}
+
+@media (max-width:1167px) {
+    .landdishwasher-functions {max-width:none; margin:40px 0 0 0; display:block}
+    .landdishwasher-function {min-width:0; max-width:none; padding:0; margin:40px 0 0 0}
+    .landdishwasher-function-title {font-size:18px}
+    .landdishwasher-function-text {font-size:14px}
+}
+
+.landdishwasher-programs {margin:0 -20px}
+.landdishwasher-programs .swiper {overflow:visible}
+.landdishwasher-programs .swiper-wrapper {flex-wrap:wrap}
+.landdishwasher-programs .swiper-slide {display:flex; min-width:50%; max-width:50%; height:auto}
+.landdishwasher-program {margin:40px 20px 0 20px; width:100%; padding:30px; background:#0A91D1; box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1); border-radius:12px}
+.landdishwasher-program-icon img {display:block; width:48px}
+.landdishwasher-program-title {margin:40px 0 0 0; font-weight:normal; font-size:30px; line-height:1.25em; color:#FFFFFF}
+.landdishwasher-program-text {margin:20px 0 0 0; font-weight:normal; font-size:20px; line-height:1.5em; color:#FFFFFF}
+.landdishwasher-program-notice {margin:20px 0 0 0; font-weight:normal; font-size:18px; line-height:1.4em; color:rgba(255, 255, 255, 0.5)}
+.landdishwasher-programs .swiper-pagination {display:none}
+
+@media (max-width:1167px) {
+    .landdishwasher-programs {margin:40px 5px 0 5px; position:relative}
+    .landdishwasher-programs .swiper-wrapper {flex-wrap:nowrap}
+    .landdishwasher-programs .swiper-slide {min-width:100%; max-width:100%}
+    .landdishwasher-program {margin:0 5px; padding:15px}
+    .landdishwasher-program-title {margin:20px 0 0 0; font-size:18px}
+    .landdishwasher-program-text {margin:10px 0 0 0; font-size:14px}
+    .landdishwasher-program-notice {margin:10px 0 0 0; font-size:14px}
+    .landdishwasher-programs .swiper-pagination.swiper-pagination-horizontal {display:flex; position:relative; margin:40px 0 0 0; width:auto; left:auto; top:auto; right:auto; bottom:auto; align-items:center; justify-content:center}
+    .landdishwasher-programs .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet {display:block; min-width:5px; max-width:5px; height:5px; background:#84C8E8; opacity:1; margin:0 0 0 15px; border-radius:5px; cursor:pointer; position:relative; transition:min-width 0.3s ease-in-out, max-width 0.3s ease-in-out}
+    .landdishwasher-programs .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet:first-child {margin:0}
+    .landdishwasher-programs .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet-active {min-width:30px; max-width:30px; background:#0A91D1; opacity:1}}
+
+.landdishwasher-reviews {margin:60px -999px 0 -999px; position:relative}
+.landdishwasher-reviews-container {width:2310px; margin:0 auto}
+.landdishwasher-reviews .swiper {overflow:visible}
+.landdishwasher-reviews .swiper-slide {min-width:33.33%; max-width:33.33%}
+.landdishwasher-review {margin:0 20px; padding:36px; background:#FFFFFF; box-shadow:none; border-radius:12px; filter:blur(10px); transition:filter 0.2s, box-shadow 0.2s}
+.landdishwasher-reviews .swiper-slide-next .landdishwasher-review {filter:blur(0); box-shadow:0px 0px 40px rgba(0, 0, 0, 0.1)}
+.landdishwasher-review-header {display:flex; justify-content:space-between; align-items:center}
+.landdishwasher-review-author {font-weight:normal; font-size:24px; line-height:1.3em}
+.landdishwasher-review-rating {min-width:190px; max-width:190px}
+.landdishwasher-review-rating img {display:block; width:100%}
+.landdishwasher-review-content {margin:40px 0 0 0}
+.landdishwasher-review-block {margin:25px 0 0 0}
+.landdishwasher-review-block-title {font-weight:500; font-size:14px; line-height:1.5em; text-transform:uppercase; color:rgba(0, 0, 0, 0.8)}
+.landdishwasher-review-block-text {margin:5px 0 0 0; font-weight:normal; font-size:20px; line-height:1.5em; color:rgba(66, 81, 90, 0.8)}
+.landdishwasher-reviews .swiper-button-prev,
+.landdishwasher-reviews .swiper-button-next {position:absolute; display:flex; align-items:center; justify-content:center; z-index:2; top:192px; width:54px; height:54px; border:none; border-radius:50%; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:#FFFFFF; transform:none; opacity:1; box-shadow:0px 0px 40px rgba(0, 0, 0, 0.1); transition:background 0.3s ease-in-out}
+.landdishwasher-reviews .swiper-button-prev::after,
+.landdishwasher-reviews .swiper-button-next::after {display:none}
+.landdishwasher-reviews .swiper-button-prev {left:50%; margin-left:-459px}
+.landdishwasher-reviews .swiper-button-next {left:50%; margin-left:405px}
+.landdishwasher-reviews .swiper-button-prev:hover,
+.landdishwasher-reviews .swiper-button-next:hover {background:#0090D0}
+.landdishwasher-reviews .swiper-button-prev svg,
+.landdishwasher-reviews .swiper-button-next svg {display:block; width:30px; height:30px; fill:#1C1B1F; transition:fill 0.3s ease-in-out}
+.landdishwasher-reviews .swiper-button-prev:hover svg,
+.landdishwasher-reviews .swiper-button-next:hover svg {fill:#FFFFFF}
+.landdishwasher-review-pagination {display:flex; position:absolute; margin:0; width:auto; left:0; top:auto; right:0; bottom:-54px; align-items:center; justify-content:center}
+.landdishwasher-review-pagination .landdishwasher-review-pagination-bullet {display:block; min-width:5px; max-width:5px; height:5px; background:#84C8E8; opacity:1; margin:0 0 0 15px; border-radius:5px; cursor:pointer; position:relative; transition:min-width 0.3s ease-in-out, max-width 0.3s ease-in-out}
+.landdishwasher-review-pagination .landdishwasher-review-pagination-bullet:first-child {margin:0}
+.landdishwasher-review-pagination .landdishwasher-review-pagination-bullet.active {min-width:30px; max-width:30px; background:#0A91D1; opacity:1}
+
+@media (max-width:1167px) {
+    .landdishwasher-reviews {margin:40px -999px 0 -999px}
+    .landdishwasher-reviews-container {width:840px}
+    .landdishwasher-review {margin:0 5px; padding:10px}
+    .landdishwasher-review-author {font-size:18px}
+    .landdishwasher-review-rating {min-width:120px; max-width:120px}
+    .landdishwasher-review-content {margin:20px 0 0 0}
+    .landdishwasher-review-block {margin:20px 0 0 0}
+    .landdishwasher-review-block-title {font-size:12px}
+    .landdishwasher-review-block-text {font-size:14px}
+    .landdishwasher-reviews .swiper-button-prev,
+    .landdishwasher-reviews .swiper-button-next {display:none}
+    .landdishwasher-review-pagination {bottom:-45px}
+}
+
+.landdishwasher-catalogue-logo {margin:0 auto 40px auto; max-width:263px}
+.landdishwasher-catalogue-logo img {display:block; width:100%}
+
+@media (max-width:1167px) {
+    .landdishwasher-catalogue-logo {margin:0 auto 20px auto; max-width:160px}
+}
+
+.landdishwasher-catalogue {margin:40px -20px 0 -20px; position:relative}
+.landdishwasher-catalogue .swiper-slide {min-width:33.33%; max-width:33.33%; display:flex; height:auto}
+.landdishwasher-catalogue-item {display:flex; width:100%; margin:0 20px; flex-direction:column; padding:36px; border:1px solid #0A91D1; border-radius:12px; text-decoration:none}
+.landdishwasher-catalogue-item-photo {min-height:354px; max-height:354px; display:flex; align-items:center; justify-content:center}
+.landdishwasher-catalogue-item-photo img {width:auto; height:auto; max-width:100%; max-height:100%}
+.landdishwasher-catalogue-item-title {height:100%; margin:20px 0 0 0; text-align:center; font-weight:normal; font-size:20px; line-height:1.25em; color:#42515A}
+.landdishwasher-catalogue-item-btn {margin:20px 0 0 0; min-height:49px; max-height:49px; display:flex; align-items:center; justify-content:center; color:#FFFFFF; background:#0090D0; border:1px solid #0090D0; border-radius:4px; font-weight:normal; font-size:18px; line-height:1.4em; transition:background 0.3s ease-in-out, color 0.3s ease-in-out}
+.landdishwasher-catalogue-item:hover .landdishwasher-catalogue-item-btn {background:#FFFFFF; color:#0090D0}
+.landdishwasher-catalogue .swiper-button-prev,
+.landdishwasher-catalogue .swiper-button-next {position:absolute; display:flex; align-items:center; justify-content:center; z-index:2; top:50%; width:54px; height:54px; border:none; border-radius:50%; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:#FFFFFF; transform:translateY(-50%); opacity:1; box-shadow:0px 0px 40px rgba(0, 0, 0, 0.1); transition:background 0.3s ease-in-out}
+.landdishwasher-catalogue .swiper-button-prev::after,
+.landdishwasher-catalogue .swiper-button-next::after {display:none}
+.landdishwasher-catalogue .swiper-button-prev {left:-74px}
+.landdishwasher-catalogue .swiper-button-next {right:-74px}
+.landdishwasher-catalogue .swiper-button-prev:hover,
+.landdishwasher-catalogue .swiper-button-next:hover {background:#0090D0}
+.landdishwasher-catalogue .swiper-button-prev svg,
+.landdishwasher-catalogue .swiper-button-next svg {display:block; width:30px; height:30px; fill:#1C1B1F; transition:fill 0.3s ease-in-out}
+.landdishwasher-catalogue .swiper-button-prev:hover svg,
+.landdishwasher-catalogue .swiper-button-next:hover svg {fill:#FFFFFF}
+.landdishwasher-catalogue .swiper-pagination.swiper-pagination-horizontal {display:flex; position:absolute; margin:0; width:auto; left:50%; top:auto; right:auto; bottom:-45px; align-items:center; justify-content:flex-start}
+.landdishwasher-catalogue .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet {display:block; min-width:20px; max-width:20px; height:5px; background:transparent; opacity:1; margin:0; border-radius:0; cursor:pointer; position:relative}
+.landdishwasher-catalogue .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet::before {content:""; position:absolute; left:50%; top:0; margin:0 0 0 -2.5px; width:5px; height:5px; background:#84C8E8; border-radius:5px; transform:scale(1); transition:width 0.3s ease-in-out, margin 0.3s ease-in-out}
+.landdishwasher-catalogue .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet-active::before {background:#0A91D1; transform:scale(1); width:20px; margin:0 0 0 -10px}
+.landdishwasher-catalogue .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {transform:scale(1)}
+
+@media (max-width:1167px) {
+    .landdishwasher-catalogue {margin:40px 45px 0 5px}
+    .landdishwasher-catalogue .swiper {overflow:visible}
+    .landdishwasher-catalogue .swiper-slide {min-width:100%; max-width:100%}
+    .landdishwasher-catalogue-item {margin:0 5px; padding:16px; display:block}
+    .landdishwasher-catalogue-item-photo {display:block; min-height:0; max-height:none; padding:0 32px}
+    .landdishwasher-catalogue-item-photo img {display:block; max-height:none; width:100%}
+    .landdishwasher-catalogue-item-title {margin:16px 0 0 0; font-size:14px; height:auto}
+    .landdishwasher-catalogue-item-btn {margin:16px 0 0 0; min-height:42px; max-height:42px; font-size:16px}
+    .landdishwasher-catalogue .swiper-button-prev,
+    .landdishwasher-catalogue .swiper-button-next {display:none}
+    .landdishwasher-catalogue .swiper-pagination.swiper-pagination-horizontal {margin-left:20px}
+}
